@@ -29,12 +29,10 @@ python finite_run.py
 
 If this repository helps you in your academic research, you are encouraged to cite our paper. Here is an example bibtex:
 ```bibtex
-conda env create -f environment.yml
-conda activate batchrl
-```
 @inproceedings{lee2020batch,
 	title={Batch Reinforcement Learning with Hyperparameter Gradients},
 	author={Byung-Jun Lee* and Jongmin Lee* and Peter Vrancx and Dongho Kim and Kee-Eung Kim},
 	booktitle={Proceedings of the 37th International Conference on Machine Learning},
 	year={2020}
 }
+```
