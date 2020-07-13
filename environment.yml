@@ -7,7 +7,6 @@ dependencies:
 - matplotlib
 - tqdm
 - cython  # for mujoco_py ?
-- libgcc  # for `CXXABI_1.3.8' not found error
 - pip:
   - gym
   - tensorflow-gpu==1.14
