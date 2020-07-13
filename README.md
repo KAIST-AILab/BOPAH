@@ -19,11 +19,20 @@ python download_dataset.py
 
 ## Finite MDP experiments
 
-To run the experiments in the paper, run this command:
+To run the finite MDP experiments in the paper, run this command:
 
 ```sh
 python finite_run.py
 ```
+
+## Continuous control experiments
+
+To run the Mujoco continuous control experiments in the paper, run this command:
+
+```sh
+python cont_run.py
+```
+
 
 ## References
 
