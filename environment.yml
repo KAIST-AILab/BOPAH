@@ -1,0 +1,23 @@
+name: batchrl
+dependencies:
+- python=3.6
+- cudatoolkit=10.0
+- cudnn=7
+- numpy<1.17
+- matplotlib
+- tqdm
+- cython  # for mujoco_py ?
+- libgcc  # for `CXXABI_1.3.8' not found error
+- pip:
+  - gym
+  - tensorflow-gpu==1.14
+  - tensorflow-probability==0.7
+  - mujoco_py
+  - stable_baselines
+  - setgpu
+  - mpi4py
+  - gast==0.2.2  # to prevent tensorflow warning (WARNING:tensorflow:Entity could not be transformed and will be executed as-is.)
+  - parse  # for condor-master's auto-scaling script
+  - sklearn
+  - googledrivedownloader
+  - requests  # googledrivedownloader
