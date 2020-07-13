@@ -6,14 +6,14 @@ This repository is the official implementation of [Batch Reinforcement Learning 
 
 To install requirements:
 
-```setup
+```sh
 conda env create -f environment.yml
 conda activate batchrl
 ```
 
->📋  In order to download the batch trajectories used in the paper, please run the following:
+To download the batch trajectories used in the paper, please run the following:
 
-```download
+```sh
 python download_dataset.py
 ```
 
@@ -21,7 +21,7 @@ python download_dataset.py
 
 To run the experiments in the paper, run this command:
 
-```finite_mdp
+```sh
 python finite_run.py
 ```
 
